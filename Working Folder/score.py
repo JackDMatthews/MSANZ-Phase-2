@@ -1,7 +1,7 @@
 import json, os, joblib
 import numpy as np
 
-# Since the model works with label-encoded data, we can create a dictionary to get the actual class names
+#I could improve this to just give the results, but that means creating the endpoint again, and this works fine as is
 classes = {'A': "A", 'B': "B", 'C': "C", 'D' : "D"}
 
 def init():
